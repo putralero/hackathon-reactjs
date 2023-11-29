@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hellocomponent from './component/Hellocomponent';
-import StatefullComponent from './container/StatefullComponent';
-import YoutubeComp from './component/YoutubeComp/YoutubeComp';
+import Home from './container/Home/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <YoutubeComp />
+    <Home />
   </React.StrictMode>
 );
 

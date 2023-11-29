@@ -1,0 +1,3 @@
+mengenal simpel komponen reactjs
+
+
